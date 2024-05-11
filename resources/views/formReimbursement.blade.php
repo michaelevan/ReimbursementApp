@@ -71,14 +71,14 @@
                                         </div>
                                         <div class="row">
                                             <div class="input-field col s12">
-                                                <textarea id="textarea1" name="deskripsi" class="materialize-textarea" style="height: 10px;"></textarea>
+                                                <textarea id="textarea1" name="deskripsi" class="materialize-textarea" style="height: 10px;" required></textarea>
                                                 <label for="textarea1">Deskripsi</label>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="input-field col s12">
                                                 <p for="">Pilih File</p>
-                                                <input id="file_reimbursement" name="files" type="file" name="file_reimbursement" accept=".jpg, .jpeg, .png, .gif, .pdf">
+                                                <input id="file_reimbursement" name="files" type="file" name="file_reimbursement" accept=".jpg, .jpeg, .png, .gif, .pdf" required>
                                                 {{-- <label for="file_reimbursement">Pilih File</label> --}}
                                             </div>
                                         </div>
